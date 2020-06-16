@@ -9,7 +9,7 @@ import com.nooty.nootylivenoots.models.viewmodels.NootInitViewModel;
 import java.util.ArrayList;
 
 public class RestService extends RestServiceBase {
-    private final String url = "http://nootygateway.kn01.fhict.nl/";
+    private final String url = "http://gateway-service/";
     Gson gson = new Gson();
 
     public ArrayList<Noot> getAllNoots() {
